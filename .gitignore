@@ -1,0 +1,7 @@
+
+*.pth
+*.png
+*.pyc
+.idea/*
+*.txt
+*.joblib

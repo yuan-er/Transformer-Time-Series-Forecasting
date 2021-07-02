@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser.add_argument("--path_to_save_model",type=str,default="save_model/")
     parser.add_argument("--path_to_save_loss",type=str,default="save_loss/")
     parser.add_argument("--path_to_save_predictions",type=str,default="save_predictions/")
-    parser.add_argument("--device", type=str, default="cpu")
+    parser.add_argument("--device", type=str, default="cuda")
     args = parser.parse_args()
 
     main(

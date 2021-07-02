@@ -7,7 +7,6 @@ import numpy as np
 import random
 import matplotlib.pyplot as plt
 from joblib import dump
-from icecream import ic
 
 class SensorDataset(Dataset):
     """Face Landmarks dataset."""

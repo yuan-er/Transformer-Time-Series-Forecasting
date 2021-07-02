@@ -2,7 +2,6 @@ import pandas as pd
 import time
 import numpy as np
 import datetime
-from icecream import ic
 
 # encoding the timestamp data cyclically. See Medium Article.
 def process_data(source):

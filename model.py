@@ -1,6 +1,5 @@
 import torch.nn as nn
 import torch, math
-from icecream import ic
 import time
 """
 The architecture is based on the paper “Attention Is All You Need”. 
